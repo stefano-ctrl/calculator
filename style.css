@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ 
+    height: 100vh; 
+
+  
+}
+
+.container {
+    border: 3px solid black;
+    background-color: black;
+    height: 70vh;
+    width: fit-content;
+    border-radius: 15%;
+
+  
+
+}
+
+.top-row {
+    padding: 40px; 
+}
+
+.op-container {
+    display: grid;
+   column-gap: 10px;
+
+}
+
+button {
+    display: inline-block; 
+    padding: 20px; 
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+    color: white; 
+    width: 60px;
+ 
+}
+
+.result-bar {
+    
+    height: 50px;
+    border-radius: 5%;
+    background-color: gray;
+    color: white;
+    border: 2px solid beige; 
+    margin: auto;
+}

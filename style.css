@@ -46,7 +46,7 @@ button {
  
 }
 
-.result-bar {
+#result-bar {
     
     height: 50px;
     border-radius: 5%;
@@ -54,6 +54,7 @@ button {
     color: white;
     border: 2px solid beige; 
     margin: auto;
+    font-size: 15px;
 }
 
 .clear-btn, .divide-btn, .multiply-btn, .equal-btn, .minus-btn, .add-btn {

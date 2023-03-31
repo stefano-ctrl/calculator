@@ -43,6 +43,7 @@ button {
     background-color: rgb(49, 49, 49);
     color: white; 
     width: 60px;
+    
  
 }
 
@@ -54,7 +55,9 @@ button {
     color: white;
     border: 2px solid beige; 
     margin: auto;
-    font-size: 15px;
+    font-size: 32px;
+    text-align: right;
+    padding: 5px 3px 0 0;
 }
 
 .clear-btn, .divide-btn, .multiply-btn, .equal-btn, .minus-btn, .add-btn {

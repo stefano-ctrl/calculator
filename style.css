@@ -18,10 +18,11 @@ body {
 .container {
     border: 3px solid black;
     background-color: black;
-    height: 60vh;
+    height: 62vh;
     width: fit-content;
-    border-radius: 15%;
+    border-radius: 65px;
     padding: 10px 15px;
+    border : 8px solid white; 
   
 
 }
@@ -51,7 +52,7 @@ button {
     
     height: 50px;
     border-radius: 5%;
-    background-color: gray;
+    background-color: black;
     color: white;
     border: 2px solid beige; 
     margin: auto;
@@ -64,6 +65,23 @@ button {
     display: inline;
 }
 
-.clear-btn, .divide-btn, .multiply-btn, .equal-btn, .minus-btn, .add-btn {
+.operator, .equal {
     background-color: orange;
+}
+
+.operator, .equal {
+    font-size:  20px;
+    padding : 16px; 
+
+}
+
+.clear {
+    background-color:  #005aaf;
+    border-radius: 25px;
+    width : 49%;
+}
+
+.zero {
+    width : 49%; 
+    border-radius: 25px;
 }
